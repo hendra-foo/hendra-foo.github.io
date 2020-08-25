@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hendra-foo.github.io/static/css/main.bed50fa2.chunk.css",
+    "main.js": "/hendra-foo.github.io/static/js/main.a7b0cb83.chunk.js",
+    "main.js.map": "/hendra-foo.github.io/static/js/main.a7b0cb83.chunk.js.map",
+    "runtime-main.js": "/hendra-foo.github.io/static/js/runtime-main.f67003d2.js",
+    "runtime-main.js.map": "/hendra-foo.github.io/static/js/runtime-main.f67003d2.js.map",
+    "static/js/2.1199ce04.chunk.js": "/hendra-foo.github.io/static/js/2.1199ce04.chunk.js",
+    "static/js/2.1199ce04.chunk.js.map": "/hendra-foo.github.io/static/js/2.1199ce04.chunk.js.map",
+    "index.html": "/hendra-foo.github.io/index.html",
+    "precache-manifest.a66309552750ef9ad80518a335f78c1b.js": "/hendra-foo.github.io/precache-manifest.a66309552750ef9ad80518a335f78c1b.js",
+    "service-worker.js": "/hendra-foo.github.io/service-worker.js",
+    "static/css/main.bed50fa2.chunk.css.map": "/hendra-foo.github.io/static/css/main.bed50fa2.chunk.css.map",
+    "static/js/2.1199ce04.chunk.js.LICENSE.txt": "/hendra-foo.github.io/static/js/2.1199ce04.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f67003d2.js",
+    "static/js/2.1199ce04.chunk.js",
+    "static/css/main.bed50fa2.chunk.css",
+    "static/js/main.a7b0cb83.chunk.js"
+  ]
+}
