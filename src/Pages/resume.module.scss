@@ -1,0 +1,211 @@
+@import "../sass/variables";
+
+.resumeBackdrop {
+  background-color: #eee;
+}
+
+.resumeRoot {
+  padding: 60px 20px;
+  background-color: #fff;
+  margin: auto;
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+    .name {
+      font-size: 5.5rem;
+      margin-bottom: 0.5rem;
+      margin-left: -6px;
+      letter-spacing: -6px;
+    }
+
+    .contact {
+      .site,
+      .email {
+        display: block;
+        color: $body-color;
+        text-decoration: unset;
+      }
+    }
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    .content {
+      flex: 1 1 100%;
+      max-width: 100%;
+      margin-bottom: 3rem;
+    }
+
+    .side {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 120px 50px;
+    max-width: 1000px;
+
+    .head {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .contact {
+        text-align: right;
+      }
+    }
+
+    .body {
+      flex-direction: row;
+
+      .content {
+        flex: 1 1 72%;
+        max-width: 72%;
+        padding-right: 7%;
+        margin-bottom: 0;
+      }
+
+      .side {
+        flex: 1 1 28%;
+        max-width: 28%;
+      }
+    }
+  }
+
+  @media print {
+    padding: 120px 50px;
+    max-width: 1000px;
+
+    .head {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .contact {
+        text-align: right;
+      }
+    }
+
+    .body {
+      flex-direction: row;
+
+      .content {
+        flex: 1 1 72%;
+        max-width: 72%;
+        padding-right: 7%;
+        margin-bottom: 0;
+      }
+
+      .side {
+        flex: 1 1 28%;
+        max-width: 28%;
+      }
+    }
+  }
+}
+
+.group {
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  .groupHead {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.4rem;
+  }
+}
+
+.experienceRoot {
+  display: flex;
+  flex-wrap: nowrap;
+
+  &:not(:last-child) {
+    margin-bottom: 5rem;
+  }
+
+  .info {
+    flex: 1 1 45%;
+    max-width: 45%;
+    padding-right: 20px;
+
+    .company {
+      font-weight: 800 !important;
+      margin-bottom: 0.25rem;
+    }
+
+    .position {
+      margin-bottom: 1rem;
+    }
+
+    .date,
+    .location {
+      font-size: 0.875rem;
+    }
+  }
+
+  .desc {
+    flex: 1 1 55%;
+    max-width: 55%;
+    font-size: 1.125rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    .info {
+      padding-right: 16%;
+    }
+
+    .desc {
+      padding-right: 5%;
+      font-size: 1.25rem;
+    }
+  }
+
+  @media print {
+    .info {
+      padding-right: 16%;
+    }
+
+    .desc {
+      padding-right: 5%;
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.educationRoot {
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  .company {
+    font-weight: 800 !important;
+    margin-bottom: 0.25rem;
+  }
+
+  .date,
+  .location {
+    font-size: 0.875rem;
+  }
+
+  .location {
+    margin-bottom: 1rem;
+  }
+}
+
+.skillRoot {
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  .company {
+    font-weight: 800 !important;
+    margin-bottom: 0.25rem;
+  }
+}
