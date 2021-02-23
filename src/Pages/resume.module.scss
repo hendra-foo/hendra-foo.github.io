@@ -16,17 +16,28 @@
 
     .name {
       font-size: 5.5rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0;
       margin-left: -6px;
       letter-spacing: -6px;
     }
 
     .contact {
-      .site,
       .email {
         display: block;
         color: $body-color;
         text-decoration: unset;
+      }
+
+      .socialGroup {
+        margin-bottom: .25rem;
+
+        .social {
+          display: inline-block;
+  
+          &:not(:last-child) {
+            margin-right: .5rem;
+          }
+        }
       }
     }
   }
@@ -49,7 +60,7 @@
   }
 
   @include media-breakpoint-up(lg) {
-    padding: 120px 50px;
+    padding: 80px 50px;
     max-width: 1000px;
 
     .head {
@@ -127,7 +138,7 @@
   flex-wrap: nowrap;
 
   &:not(:last-child) {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
   }
 
   .info {
@@ -179,7 +190,7 @@
   }
 }
 
-.educationRoot {
+.certificationRoot {
   &:not(:last-child) {
     margin-bottom: 3rem;
   }
@@ -190,12 +201,20 @@
   }
 
   .date,
-  .location {
+  .issuer {
     font-size: 0.875rem;
   }
 
-  .location {
-    margin-bottom: 1rem;
+  .date {
+    margin-bottom: .5rem;
+  }
+
+  .credential {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: $gray-700;
+    text-decoration: unset;
   }
 }
 
