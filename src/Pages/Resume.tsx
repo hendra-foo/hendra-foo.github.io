@@ -137,7 +137,7 @@ const Resume = (): JSX.Element => {
 
 type GroupProps = {
   title: string;
-  children: React.ReactElement | React.ReactElement[];
+  children: React.ReactNode;
 };
 
 const Group = ({ title, children }: GroupProps) => {
