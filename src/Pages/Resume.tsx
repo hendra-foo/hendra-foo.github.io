@@ -116,6 +116,16 @@ const Resume = (): JSX.Element => {
                   </>
                 }
               />
+              <Skill
+                name="CI/CD"
+                desc={
+                  <>
+                    Automate software workflows
+                    <br />
+                    <small className="text-secondary">Tech: Github Actions</small>
+                  </>
+                }
+              />
               <Skill name="UI/UX Design" desc="Adobe XD, Figma, Photoshop" />
             </Group>
           </div>

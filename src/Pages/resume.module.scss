@@ -29,13 +29,13 @@
       }
 
       .socialGroup {
-        margin-bottom: .25rem;
+        margin-bottom: 0.25rem;
 
         .social {
           display: inline-block;
-  
+
           &:not(:last-child) {
-            margin-right: .5rem;
+            margin-right: 0.5rem;
           }
         }
       }
@@ -169,10 +169,14 @@
 
   @include media-breakpoint-up(lg) {
     .info {
-      padding-right: 16%;
+      flex: 1 1 40%;
+      max-width: 40%;
+      padding-right: 10%;
     }
 
     .desc {
+      flex: 1 1 60%;
+      max-width: 60%;
       padding-right: 5%;
       font-size: 1.25rem;
     }
@@ -185,7 +189,6 @@
 
     .desc {
       padding-right: 5%;
-      font-size: 1.25rem;
     }
   }
 }
@@ -206,7 +209,7 @@
   }
 
   .date {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   .credential {
