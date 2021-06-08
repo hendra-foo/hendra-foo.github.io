@@ -1,6 +1,19 @@
 $font-family-base: "Montserrat", sans-serif;
 $headings-font-weight: 700;
 
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
+$gray-700: #495057;
+$gray-900: #212529;
+$body-color: $gray-900;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+// @import "~bootstrap/scss/functions";
+// @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins/_breakpoints";
