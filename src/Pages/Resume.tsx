@@ -43,9 +43,16 @@ const Resume = (): JSX.Element => {
           <div className={styles.content}>
             <Group title="Experience">
               <Experience
+                company="Stockbit"
+                position="Front-End Engineer"
+                date="Sep 2021 - Present"
+                location="Jakarta, ID"
+                desc="Developing a Stock analysis and investment application"
+              />
+              <Experience
                 company="Cloud Ace Indonesia"
                 position="Cloud Front-End Developer"
-                date="Oct 2020 - Present"
+                date="Oct 2020 - Aug 2021"
                 location="Jakarta, ID"
                 desc="Building a Microservices Architecture Project Management System application running in Google Cloud Platform Environment"
               />
@@ -55,8 +62,6 @@ const Resume = (): JSX.Element => {
                 date="Jul 2019 - Sep 2020"
                 location="Jakarta, ID"
                 desc="Entrusted to manage all projects in SF Group related to Web FE, Research best coding practices, Frontend Applicant Tester & Verifier"
-                // desc="Prototyping & Building reusable component, Research best coding practices, Frontend Applicant Tester & Verifier"
-                // desc="Worked with Backend & Design Team to Develope SF Group Application. e.g: Dipay, Pigijo Microsite, SF Capital, SF Sekuritas & etc."
               />
               <Experience
                 company="Dipay"
@@ -72,13 +77,13 @@ const Resume = (): JSX.Element => {
                 location="Batam, ID"
                 desc="Designed a Market Ecommerce UI/UX for mobile and web application"
               />
-              <Experience
+              {/* <Experience
                 company="Dreamsmart Solutions"
                 position="Junior Web Developer"
                 date="May 2017 - Aug 2017"
                 location="Batam, ID"
                 desc="Worked in a Software House to develope an online peer-to-peer learning platform and translating Mockup to HTML, JS & CSS"
-              />
+              /> */}
             </Group>
           </div>
           <div className={styles.side}>
